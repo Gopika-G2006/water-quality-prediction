@@ -12,3 +12,6 @@ df = pd. read_csv("water_quality. csv") # Make sure this file is uploaded in y
 print('Shape of the Dataset:', df. shape)
 print("Null data:\n", df. isnull(). sum())
 Drop missing values
+df.dropna(inplace=True)
+#Confirm missing values are handled
+print("After dropping missing values:\n",df.isnull().sum())
