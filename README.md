@@ -1,6 +1,6 @@
 # 🌊 Water Quality - Project Week 1
 
-This is my AICTE Skills4Future Internship project and here I have done the analysis of water quality data and done some basic data cleaning and visualization using Python.
+This is my AICTE Skills4Future Internship-Edunet Foundation project and here I have done the analysis of water quality data and done some basic data cleaning and visualization using Python.
 
 📁 Project Overview
 
