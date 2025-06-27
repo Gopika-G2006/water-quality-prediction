@@ -1,65 +1,59 @@
-# 🌊 Water Quality - Project Week 1
+# 🌊 Water Quality Prediction – AICTE Skills4Future Internship
 
-This is my AICTE Skills4Future Internship-Edunet Foundation project and here I have done the analysis of water quality data and done some basic data cleaning and visualization using Python.
+This repository contains my Week 1 and Week 2 project submissions for the AICTE Skills4Future Internship, hosted by Edunet Foundation in collaboration with AICTE and Shell.
 
-📁 Project Overview
+---
 
-Dataset: water_quality. csv
+## 📅 Week 1 – Potability Classification
 
-Tools Used: Python, Pandas, Searborn, Matplotlib, Scikit-learn
+In this project, I analyzed the water quality dataset and applied basic data cleaning and visualization techniques using Python.
 
-Objective: To understand dataset, clean missing values and generate a heatmap of how each feature is correlated.
+📁 Dataset: water_quality.csv  
+🎯 Objective: Understand the dataset, clean missing values, and visualize feature relationships using a heatmap.
 
-📌 Tasks Completed
+### ✅ Tasks Completed
+- Imported and explored the dataset
+- Handled missing values
+- Generated a correlation heatmap using seaborn
+- Printed dataset shape and null counts
 
-Imported the water quality data
+### 🧪 Tools & Technologies
+- Python
+- Pandas, Seaborn, Matplotlib
+- Scikit-learn, Scipy
 
-Removed rows with missing values
+### 📸 Sample Output
+Heatmap showing the correlation of numerical features using a "coolwarm" colormap.
 
-Created a correlation heatmap with seaborn And much more.
+---
 
-Shape of the printed dataset - Null count printed below the shape
+## 📅 Week 2 – Multi-Output Regression
 
-🧪 Technologies Used
+In Week 2, the objective was to predict multiple target features using a multi-output regression model.
 
-pandas for data handling
+📁 Dataset: PB_ALL_2000_2021.csv  
+🎯 Objective: Use MultiOutputRegressor with Random Forest to predict multiple water quality indicators.
 
-matplotlib. pyplot and seaborn for charting
+### ✅ Tasks Completed
+- Loaded and cleaned the multi-year dataset
+- Applied train-test split
+- Trained a MultiOutputRegressor model using RandomForestRegressor
+- Evaluated results using R² Score and Mean Squared Error (MSE)
 
-scikit-learn and scipy to use in upcoming exercises
+---
 
-📸 Sample Output
+## 📂 File Info
 
-Heatmap of Feature Correlation:
+| File Name                  | Description                                              |
+|----------------------------|----------------------------------------------------------|
+| water_quality_week1.ipynb  | Week 1 notebook – Potability classification              |
+| week2_project.ipynb        | Week 2 notebook – Multi-output regression model          |
 
-Plots a color-encoded map of the correlation of numerical fields in the dataset in the “coolwarm” color map.
+---
 
-📂 File Info
+## 🙋‍♀️ Author
 
-| File Name   | Description |
-
-|--------------------------|----------------------------------------|
-
-| water_quality_analysis. py | Code in Python for data analysis and visualization of the dataset |
-
-| water_quality. csv   | Input data file to use for analysis |
-
-📌 How to Run
-
-If using Google Colab:
-
-Upload water_quality. csv manually.
-
-Run the code cells one by one.
-
-🙋‍♀️ Author
-
-Gopika G
-
-B.Tech CSE (AI & ML), Rajadhani Institute of Engineering and Technology
-
-Intern at Edunet Foundation | Verveox Technology
-
-Add on LinkedIn-https://www.linkedin.com/in/gopika-g/
-
-Email: gopikagopu.uk20@gmail.com
+Gopika G  
+B.Tech CSE (AI & ML), Rajadhani Institute of Engineering and Technology  
+Email: gopikagopu.uk20@gmail.com  
+LinkedIn: https://www.linkedin.com/in/gopika-g/
